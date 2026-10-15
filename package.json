@@ -1,0 +1,41 @@
+{
+  "name": "next-measuremysite",
+  "version": "0.1.0",
+  "description": "Next.js component for measuremy.site: cookieless web analytics your AI agent can read.",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./index.js"
+    }
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "sideEffects": false,
+  "peerDependencies": {
+    "next": ">=13.0.0",
+    "react": ">=18.0.0"
+  },
+  "license": "MIT",
+  "homepage": "https://measuremy.site/docs/install",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/developeron29/measuremysite-next.git"
+  },
+  "keywords": [
+    "nextjs",
+    "next",
+    "react",
+    "analytics",
+    "web-analytics",
+    "cookieless",
+    "privacy",
+    "google-analytics-alternative",
+    "mcp",
+    "measuremy.site"
+  ]
+}
